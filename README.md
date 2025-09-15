@@ -48,6 +48,7 @@ cd CS-project
 ### 1. Create Conda environment
 ```bash
 cd setup
+cd env_setup
 conda env create -f cs_conda_env.yml
 ```
 
@@ -85,7 +86,11 @@ poetry install
 ```
 
 ---
+To validate TensorFlow and key dependencies:
 
+```bash
+python tf_test.py
+```
 ## Usage
 
 Run notebooks in order:
@@ -107,12 +112,6 @@ Run notebooks in order:
 
 ---
 
-## Testing
 
-To validate TensorFlow and key dependencies:
-
-```bash
-python tf_test.py
-```
 
 ---

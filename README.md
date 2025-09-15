@@ -69,27 +69,6 @@ export NVIDIA_DIR=$(dirname $(dirname $(python -c "import nvidia.cudnn; print(nv
 export LD_LIBRARY_PATH=$(echo ${NVIDIA_DIR}/*/lib/ | sed -r 's/\s+/:/g')${LD_LIBRARY_PATH:+:${LD_LIBRARY_PATH}}
 ```
 
-### 4. Install Poetry dependencies
-Return to the root directory:
-
-```bash
-cd ..
-poetry install
-```
-
-If Poetry reports lock issues:
-
-```bash
-poetry lock
-poetry install
-```
-
----
-To validate TensorFlow and key dependencies:
-
-```bash
-python tf_test.py
-```
 ## Usage
 
 Pipeline:

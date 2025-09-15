@@ -31,7 +31,6 @@ This repository contains three main stages:
 
 - Linux (Ubuntu 20.04+ recommended) or WSL2 with GPU support  
 - [Conda](https://docs.conda.io/en/latest/miniconda.html)  
-- [Poetry](https://python-poetry.org/)  
 - NVIDIA GPU drivers + CUDA/cuDNN compatible with TensorFlow  
 
 ---

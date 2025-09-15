@@ -92,7 +92,7 @@ python tf_test.py
 ```
 ## Usage
 
-Run notebooks in order:
+Pipeline:
 
 1. **Data exploration:**  
    ```bash
@@ -104,7 +104,7 @@ Run notebooks in order:
    jupyter notebook AudioClassification_all.ipynb
    ```
 
-3. **Final lightweight model:**  
+3. **Final lightweight model (for new locations):**  
    ```bash
    jupyter notebook AudioClassification_Final.ipynb
    ```
